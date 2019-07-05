@@ -1,10 +1,10 @@
 import React from 'react'
 import './styles/ChatWindow.css'
 
-const ChatWindow = ({ actieUserId }) => {
+const ChatWindow = ({ activeUserId }) => {
   return (
     <div className='ChatWindow'>
-      Conversation for user id: {actieUserId} 
+      Conversation for user id: {activeUserId} 
     </div>
   )
 }
