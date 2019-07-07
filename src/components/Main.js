@@ -8,12 +8,12 @@ const Main = ({ user, activeUserId }) => {
     if(!activeUserId){
       return <Empty 
         user={user}
-        activeUserId={activeUserId}
+        activeUserId={renderMainContent}
       />
     }
     else{
       return <ChatWindow 
-        activeUserId={activeUserId}
+        activeUserId={renderMainContent}
       />
     }
   };
