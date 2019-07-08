@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/Header.css";
 
 function Header({ user }) {
+  // console.log('clicked user-> ',user);
   const { name, status } = user;
   return (
     <header className="Header">
