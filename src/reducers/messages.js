@@ -1,5 +1,5 @@
 import { getMessages } from '../staticData'
-import SEND_MESSAGE from '../constants/SEND_MESSAGE';
+import { SEND_MESSAGE } from '../constants/action-types';
 import _ from 'lodash';
 
 export default function messages(state=getMessages(10), action){

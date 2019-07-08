@@ -1,5 +1,4 @@
-import SET_TYPING_VALUE from '../constants/SET_TYPING_VALUE';
-import SEND_MESSAGE from '../constants/SEND_MESSAGE';
+import { SEND_MESSAGE, SET_TYPING_VALUE } from '../constants/action-types'
 
 export default function typing(state='', action){
   switch(action.type){
