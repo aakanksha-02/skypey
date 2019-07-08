@@ -1,6 +1,4 @@
-import SET_ACTIVE_USER_ID from '../constants/SET_ACTIVE_USER_ID';
-import SET_TYPING_VALUE from '../constants/SET_TYPING_VALUE';
-import SEND_MESSAGE from '../constants/SEND_MESSAGE'
+import { SET_ACTIVE_USER_ID, SET_TYPING_VALUE, SEND_MESSAGE } from '../constants/action-types'
 
 //Action Creator
 export const setActiveUserId = (id) => ({

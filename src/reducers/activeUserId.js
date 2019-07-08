@@ -1,4 +1,4 @@
-import SET_ACTIVE_USER_ID from '../constants/SET_ACTIVE_USER_ID'
+import { SET_ACTIVE_USER_ID } from '../constants/action-types'
 
 export default function activeUserId(state=null, action){
   switch(action.type){
