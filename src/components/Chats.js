@@ -30,7 +30,6 @@ class Chats extends Component {
   scrollToBottom = () => {
     this.chatsRef.current.scrollTop = this.chatsRef.current.scrollHeight;
   }
-  
 
   render() {
     return (
@@ -39,7 +38,7 @@ class Chats extends Component {
           this.props.messages.map(message => (
             <Chat 
               message={message} 
-              key={message.number} 
+              key={message.number}
             />
           ))
         }
