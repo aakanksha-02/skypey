@@ -17,7 +17,6 @@ const MessageInput = ({ value }) => {
     store.dispatch(sendMessage(typing, activeUserId));
   }
   
-
   return (
     <form 
       className="Message"
